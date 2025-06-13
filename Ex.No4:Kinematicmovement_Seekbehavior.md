@@ -23,7 +23,7 @@ To write a program to simulate the process of seek behavior in Unity
 13. Stop the program
     
 ### Program:
-
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -50,7 +50,7 @@ public class Script : MonoBehaviour
         transform.position += direction * speed * Time.deltaTime;
     }
 }
-
+```
 ### Output:
 ### Before:
 ![Screenshot 2025-03-05 160533](https://github.com/user-attachments/assets/6459915e-a2c5-4edc-b729-a69ea17ee4aa)
